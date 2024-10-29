@@ -7,7 +7,7 @@
     <AssemblyTitle>Markdig.Xaml.ConsoleApp</AssemblyTitle>
     <NeutralLanguage>en-US</NeutralLanguage>
     <VersionPrefix>0.5.0.1</VersionPrefix>
-    <TargetFrameworks>net452;netcoreapp3.1;net5.0-windows</TargetFrameworks>
+    <TargetFrameworks>net8.0-windows8.0</TargetFrameworks>
     <ApplicationIcon />
     <OutputType>Exe</OutputType>
     <StartupObject />
@@ -20,8 +20,8 @@
     <None Remove="Documents\.gitkeep" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Markdig" Version="0.22.0" />
-    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="5.0.3">
+    <PackageReference Include="Markdig" Version="0.37.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="8.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
